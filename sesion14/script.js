@@ -8,7 +8,7 @@ porcentajeMujeres = mujeres*100/(varones+mujeres);
 alert(`El porcentaje de varones es del: ${porcentajeVarones} %`);
 alert(`El porcentaje de mujeres es del: ${porcentajeMujeres} %`);
 
-//EJERCICIO 2
+//EJERCICIO 02
 let monto = +prompt("Ingrese el monto de inversión para la reparación");
 avenida1 = monto*0.35
 avenida2 = monto*0.25
@@ -23,7 +23,7 @@ alert(`La Avenida Aviación recibirá: ${avenida4}`);
 alert(`La Avenida Tacna recibirá: ${avenida5}`);
 
 
-//EJERCICIO 3
+//EJERCICIO 03
 let general = +prompt("Ingrese el valor vendido de entradas generales");
 let mayores = +prompt("Ingrese el valor vendido de entradas para mayores de 65");
 let menores = +prompt("Ingrese el valor vendido de entradas para menores de edad");
