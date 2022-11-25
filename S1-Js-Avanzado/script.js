@@ -113,10 +113,9 @@ let pokemons = [
 // que el que tenga un mayor valor posible de base_damage + max_damage sea el que este primero en la lista y asi sucesivamente.
 
 
-    pokemons.sort(function (v1, v2) {
-        v1.base_damage + v1.max_damage - (v2.base_damage + v2.max_damage)
-    });
-
-    console.log(pokemons);
+    function ordenar (pokemons){
+        pokemons.sort((v1, v2) => v2.base_damage + v2.max_damage - (v1.base_damage + v1.max_damage))
+        console.log(pokemons);
+    };
 
 
