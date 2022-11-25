@@ -102,6 +102,7 @@ function order_users(argument){
 //8. Crear un boton con javascript que diga "Aceptar" y cuando se le de click mande una alerta que diga: "De acuerdo!"
 const body = document.getElementById("body")
 body.style.margin = "2rem"
+const root = document.getElementById("root")
 
 const btn = document.createElement("button")
 btn.style.padding = "12px"
@@ -118,7 +119,8 @@ btn.addEventListener("click",() => {
     alert("De acuerdo!")
 })
 
-body.append(btn)
+body.append(root)
+root.append(btn)
 
 //9. Agrega un listener al boton para que cuando el usuario haga hover sobre este, el boton desaparezca.
 btn.addEventListener("mouseover", () => {
